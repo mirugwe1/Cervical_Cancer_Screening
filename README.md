@@ -9,12 +9,12 @@ Cervical cancer is a significant global health issue, particularly in low-resour
 
 ## Table of Contents
 
-[Introduction][https://github.com/mirugwe1/Cervical_Cancer_Screening#introduction]
-System Requirements
-Dataset
-Model Architecture
-Training
-Evaluation
+[Introduction](https://github.com/mirugwe1/Cervical_Cancer_Screening#introduction)
+[System Requirements](https://github.com/mirugwe1/Cervical_Cancer_Screening#system-requirements)
+[Dataset](https://github.com/mirugwe1/Cervical_Cancer_Screening#dataset)
+[Model Architecture](https://github.com/mirugwe1/Cervical_Cancer_Screening#model-architecture)
+[Training](https://github.com/mirugwe1/Cervical_Cancer_Screening#training)
+[Evaluation](https://github.com/mirugwe1/Cervical_Cancer_Screening#evaluation)
 
 
 
