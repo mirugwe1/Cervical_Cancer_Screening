@@ -52,32 +52,9 @@ The dataset used for training and evaluation can be obtained from [Kaggle](https
 ## Model Architecture
 
 The detailed architecture of the CNN is as follows:
+![](https://github.com/mirugwe1/Cervical_Cancer_Screening/blob/master/visuals/Architecture.png)
 
 
----------------------------------------------------
-Layer (type)                Output Shape       Param #
-===================================================
-Conv2D_1 (Conv2D)            (None, 32, 32, 64)  1792
-ReLU_1 (ReLU)               (None, 32, 32, 64)  0
-MaxPooling2D_1 (MaxPooling2 (None, 16, 16, 64)  0
-Conv2D_2 (Conv2D)            (None, 16, 16, 128) 73856
-ReLU_2 (ReLU)               (None, 16, 16, 128) 0
-MaxPooling2D_2 (MaxPooling2 (None, 8, 8, 128)   0
-Conv2D_3 (Conv2D)            (None, 8, 8, 256)   295168
-ReLU_3 (ReLU)               (None, 8, 8, 256)   0
-MaxPooling2D_3 (MaxPooling2 (None, 4, 4, 256)   0
-Flatten (Flatten)            (None, 4096)        0
-Dense_1 (Dense)              (None, 512)         2097664
-ReLU_4 (ReLU)               (None, 512)         0
-Dense_2 (Dense)              (None, 128)         65664
-ReLU_5 (ReLU)               (None, 128)         0
-Dense_3 (Dense)              (None, 2)           258
-Softmax (Softmax)            (None, 2)           0
----------------------------------------------------
-Total params: 2,488,402
-Trainable params: 2,488,402
-Non-trainable params: 0
----------------------------------------------------
 
 ## Training
 To train the deep learning model, follow these steps:
