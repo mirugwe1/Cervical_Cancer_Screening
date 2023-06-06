@@ -11,8 +11,9 @@ Cervical cancer is a significant global health issue, particularly in low-resour
 
 [Introduction](https://github.com/mirugwe1/Cervical_Cancer_Screening#introduction)\
 [System Requirements](https://github.com/mirugwe1/Cervical_Cancer_Screening#system-requirements)\
-[Required Dependencies]()\
+[Required Dependencies](https://github.com/mirugwe1/Cervical_Cancer_Screening/tree/master#required-dependencies)\
 [Dataset](https://github.com/mirugwe1/Cervical_Cancer_Screening#dataset)\
+*[Sample Images]()
 [Model Architecture](https://github.com/mirugwe1/Cervical_Cancer_Screening#model-architecture)\
 [Training](https://github.com/mirugwe1/Cervical_Cancer_Screening#training)\
 [Evaluation](https://github.com/mirugwe1/Cervical_Cancer_Screening#evaluation)
@@ -42,7 +43,12 @@ OpenCV
 
 
 ## Dataset
-The dataset used for training and evaluation can be obtained from [source/dataset-link]. It consists of a collection of digital cervical images labeled with corresponding class annotations. Ensure that the dataset is downloaded and organized appropriately before proceeding with training or evaluation.
+The dataset used for training and evaluation can be obtained from [Kaggle](https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening/data). It consists of a collection of digital cervical images labelled with corresponding class annotations.
+
+### Sample Images
+
+![](https://github.com/mirugwe1/bird_detection/blob/master/photos/images.JPG)
+
 
 ## Model Architecture
 The deep learning algorithm utilizes a CNN architecture specifically designed for cervical cancer screening. The model architecture consists of multiple convolutional layers, pooling layers, and fully connected layers, which collectively learn hierarchical representations from the input images.
