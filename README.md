@@ -1,1 +1,1 @@
-# Cervical_Cancer_Screening
+# Deep Learning CNN Cervical Cancer Screening Algorithm
