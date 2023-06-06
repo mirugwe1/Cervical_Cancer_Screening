@@ -6,7 +6,6 @@ This repository contains the implementation of deep learning Convolutional Neura
 
 Cervical cancer is a significant global health issue, particularly in low-resource settings. Early detection and accurate classification of cervical abnormalities are crucial for effective treatment and improved patient outcomes. This repository presents a deep learning algorithm that utilizes a CNN to analyze digital cervical images and identify potential cancerous or pre-cancerous regions.
 
-
 ## Table of Contents
 
 [Introduction](https://github.com/mirugwe1/Cervical_Cancer_Screening#introduction)\
