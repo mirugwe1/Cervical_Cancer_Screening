@@ -46,7 +46,6 @@ OpenCV
 The dataset used for training and evaluation can be obtained from [Kaggle](https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening/data). It consists of a collection of digital cervical images labelled with corresponding class annotations.
 
 ### Sample Images
-
 ![](https://github.com/mirugwe1/bird_detection/blob/master/photos/images.JPG)
 
 
