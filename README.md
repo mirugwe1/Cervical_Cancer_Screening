@@ -4,33 +4,33 @@
 
 This repository contains the implementation of deep learning Convolutional Neural Network (CNN) algorithms for cervical cancer screening. The algorithm aims to assist in the early detection and classification of cervical cancer from digital cervical images. We trained one from scratch, and then we also tried transfer learning by training on top of VGG16 and ResNet50, but this never improved the performance. 
 
+Cervical cancer is a significant global health issue, particularly in low-resource settings. Early detection and accurate classification of cervical abnormalities are crucial for effective treatment and improved patient outcomes. This repository presents a deep learning algorithm that utilizes a CNN to analyze digital cervical images and identify potential cancerous or pre-cancerous regions.
+
 
 ## Table of Contents
 
-Introduction
-Installation
+[Introduction][https://github.com/mirugwe1/Cervical_Cancer_Screening#introduction]
+System Requirements
 Dataset
 Model Architecture
 Training
 Evaluation
-Usage
-Contributing
-License
-Introduction
-Cervical cancer is a significant global health issue, particularly in low-resource settings. Early detection and accurate classification of cervical abnormalities are crucial for effective treatment and improved patient outcomes. This repository presents a deep learning algorithm that utilizes a CNN to analyze digital cervical images and identify potential cancerous or pre-cancerous regions.
 
-Installation
-Clone the repository:
-bash
-Copy code
+
+
+## System Requirements
+
+
 git clone https://github.com/your-username/your-repo.git
 Install the required dependencies:
 Copy code
 pip install -r requirements.txt
-Dataset
+
+
+## Dataset
 The dataset used for training and evaluation can be obtained from [source/dataset-link]. It consists of a collection of digital cervical images labeled with corresponding class annotations. Ensure that the dataset is downloaded and organized appropriately before proceeding with training or evaluation.
 
-Model Architecture
+## Model Architecture
 The deep learning algorithm utilizes a CNN architecture specifically designed for cervical cancer screening. The model architecture consists of multiple convolutional layers, pooling layers, and fully connected layers, which collectively learn hierarchical representations from the input images.
 
 The detailed architecture of the CNN is as follows:
@@ -60,7 +60,8 @@ Total params: 2,488,402
 Trainable params: 2,488,402
 Non-trainable params: 0
 ---------------------------------------------------
-Training
+
+## Training
 To train the deep learning model, follow these steps:
 
 Preprocess the dataset to prepare the images and labels for training.
@@ -69,7 +70,9 @@ Run the training script:
 Copy code
 python train.py
 Monitor the training progress and wait until the training completes.
-Evaluation
+
+
+## Evaluation
 Once the model is trained, you can evaluate its performance on a separate test set. To evaluate the model, follow these steps:
 
 Prepare the test set with appropriate annotations.
