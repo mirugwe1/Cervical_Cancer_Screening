@@ -13,34 +13,10 @@ Cervical cancer is a significant global health issue, particularly in low-resour
 [System Requirements](https://github.com/mirugwe1/Cervical_Cancer_Screening#system-requirements)\
 [Required Dependencies](https://github.com/mirugwe1/Cervical_Cancer_Screening/tree/master#required-dependencies)\
 [Dataset](https://github.com/mirugwe1/Cervical_Cancer_Screening#dataset)
-    [Sample Images](https://github.com/mirugwe1/Cervical_Cancer_Screening#sample-images)\
+* [Sample Images](https://github.com/mirugwe1/Cervical_Cancer_Screening#sample-images)\
 [Model Architecture](https://github.com/mirugwe1/Cervical_Cancer_Screening#model-architecture)\
 [Training](https://github.com/mirugwe1/Cervical_Cancer_Screening#training)\
 [Evaluation](https://github.com/mirugwe1/Cervical_Cancer_Screening#evaluation)
-
-
-
-[Introduction](https://github.com/mirugwe1/bird_detection#introduction)\
-[System Requirement](https://github.com/mirugwe1/bird_detection#system-requirement)\
-[Procedure](https://github.com/mirugwe1/bird_detection#procedure)
-* [Preparing the environment](https://github.com/mirugwe1/bird_detection#preparing-the-environment)
-  - [Setting up a virtual environment](https://github.com/mirugwe1/bird_detection#setting-up-a-virtual-environment)
-  - [Cloning a TensorFlow object detection API](https://github.com/mirugwe1/bird_detection#cloning-a-tensorflow-object-detection-api-repository-in-folder-thesis-using)
-  - [Installing Protobuf and Object Detection API](https://github.com/mirugwe1/bird_detection#installing-protobuf-and-object-detection-api)
-  - [Verifying our Installation](https://github.com/mirugwe1/bird_detection#verifying-our-installation)
-* [Data Pre-processing](https://github.com/mirugwe1/bird_detection#verifying-our-installation)
-  - [Dataset Partitioning](https://github.com/mirugwe1/bird_detection#dataset-partitioning)
-  - [Convert *.xml to *.csv](https://github.com/mirugwe1/bird_detection#convert-xml-to-csv)
-  - [Convert *.xml to *.record](https://github.com/mirugwe1/bird_detection#convert-xml-to-record)
-  - [Creating Label Map](https://github.com/mirugwe1/bird_detection#creating-label-map)
-* [Model Training](https://github.com/mirugwe1/bird_detection#model-training)
-  - [Downloading the pre-trained model](https://github.com/mirugwe1/bird_detection#downloading-the-pre-trained-model)
-  - [Configuring the Training Pipeline](https://github.com/mirugwe1/bird_detection#configuring-the-training-pipeline)
-  - [Training](https://github.com/mirugwe1/bird_detection#training)
-  - [Validation](https://github.com/mirugwe1/bird_detection#validation)
-* [Exporting Inference Graph](https://github.com/mirugwe1/bird_detection#exporting-inference-graph)
-* [Testing the Model](https://github.com/mirugwe1/bird_detection#testing-the-model)\
-[References](https://github.com/mirugwe1/bird_detection#testing-the-model#references)
 
 
 
