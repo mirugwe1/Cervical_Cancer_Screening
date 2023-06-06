@@ -13,7 +13,7 @@ Cervical cancer is a significant global health issue, particularly in low-resour
 [System Requirements](https://github.com/mirugwe1/Cervical_Cancer_Screening#system-requirements)\
 [Required Dependencies](https://github.com/mirugwe1/Cervical_Cancer_Screening/tree/master#required-dependencies)\
 [Dataset](https://github.com/mirugwe1/Cervical_Cancer_Screening#dataset)\
-*[Sample Images]()
+ * [Sample Images](https://github.com/mirugwe1/Cervical_Cancer_Screening#sample-images)\
 [Model Architecture](https://github.com/mirugwe1/Cervical_Cancer_Screening#model-architecture)\
 [Training](https://github.com/mirugwe1/Cervical_Cancer_Screening#training)\
 [Evaluation](https://github.com/mirugwe1/Cervical_Cancer_Screening#evaluation)
@@ -46,7 +46,7 @@ OpenCV
 The dataset used for training and evaluation can be obtained from [Kaggle](https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening/data). It consists of a collection of digital cervical images labelled with corresponding class annotations.
 
 ### Sample Images
-![](https://github.com/mirugwe1/bird_detection/blob/master/photos/images.JPG)
+![](https://github.com/mirugwe1/Cervical_Cancer_Screening/blob/master/visuals/sample.jpg)
 
 
 ## Model Architecture
