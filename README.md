@@ -9,22 +9,36 @@ Cervical cancer is a significant global health issue, particularly in low-resour
 
 ## Table of Contents
 
-[Introduction](https://github.com/mirugwe1/Cervical_Cancer_Screening#introduction)
-[System Requirements](https://github.com/mirugwe1/Cervical_Cancer_Screening#system-requirements)
-[Dataset](https://github.com/mirugwe1/Cervical_Cancer_Screening#dataset)
-[Model Architecture](https://github.com/mirugwe1/Cervical_Cancer_Screening#model-architecture)
-[Training](https://github.com/mirugwe1/Cervical_Cancer_Screening#training)
+[Introduction](https://github.com/mirugwe1/Cervical_Cancer_Screening#introduction)\
+[System Requirements](https://github.com/mirugwe1/Cervical_Cancer_Screening#system-requirements)\
+[Required Dependencies]()\
+[Dataset](https://github.com/mirugwe1/Cervical_Cancer_Screening#dataset)\
+[Model Architecture](https://github.com/mirugwe1/Cervical_Cancer_Screening#model-architecture)\
+[Training](https://github.com/mirugwe1/Cervical_Cancer_Screening#training)\
 [Evaluation](https://github.com/mirugwe1/Cervical_Cancer_Screening#evaluation)
 
 
 
 ## System Requirements
+The algorithm was developed in Python, utilizing;
+ - TensorFlow 2.11.0 
+ - Keras 2.12.0  
+ - MSI GL75 Leopard 10SFR laptop 
+ -  8GB NVIDIA RTX 2070 GDDR6 Graphical Processing Unit (GPU) 
+ -  CUDA 12.1 
+ - cuDNN SDK 8.7.0 
+ 
+ The [CUDA 12.1 ](https://developer.download.nvidia.com/compute/cuda/12.1.1/network_installers/cuda_12.1.1_windows_network.exe) and [cuDNN 8.7.0](https://developer.nvidia.com/rdp/cudnn-archive#a-collapse870-118) can be downloaded  from the official [NVIDIA Website](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local).
 
 
-git clone https://github.com/your-username/your-repo.git
-Install the required dependencies:
-Copy code
-pip install -r requirements.txt
+## Required Dependencies
+
+```
+NumPy
+Pandas
+Tensorflow
+OpenCV
+```
 
 
 ## Dataset
