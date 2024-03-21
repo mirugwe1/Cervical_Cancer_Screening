@@ -11,10 +11,8 @@ from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 
-# Defining a flask app
 app = Flask(__name__)
 
-# Loading your trained model
 model = keras.models.load_model('./models/cervical_cancer_image_classifier.h5')
 
 print('Model loaded. Check http://127.0.0.1:5000/')
